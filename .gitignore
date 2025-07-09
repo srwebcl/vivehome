@@ -1,0 +1,19 @@
+# Node y Composer
+/node_modules
+/vendor
+
+# Archivos sensibles
+.env
+.env.* 
+*.key
+
+# Archivos de sistema
+.DS_Store
+.idea
+.vscode
+
+# Laravel
+/public/storage
+/storage/*.key
+
+
