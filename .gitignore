@@ -16,4 +16,12 @@
 /public/storage
 /storage/*.key
 
+/public_html/storage/
+/public_html/fotos/
+/vivehome/public/storage/
+/vivehome/public/fotos/
+/public_html/build/
+/public_html/*.js
+/public_html/*.css
+
 
