@@ -1,0 +1,19 @@
+// 1. Importar Fuentes (Siempre primero)
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+// 2. Definir Variables y Overrides de Bootstrap (Esto sobreescribe los defaults)
+:root {
+    --bs-font-sans-serif: 'Nunito', sans-serif;
+}
+
+body {
+    font-family: var(--bs-font-sans-serif);
+}
+
+// 3. Importar Iconos (Pueden ir aquí sin problema)
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+// 4. Importar Bootstrap (Al final, para que use tus variables y fuentes)
+@import "~bootstrap/scss/bootstrap";
+
+// 5. Tus estilos personalizados adicionales pueden ir aquí.
